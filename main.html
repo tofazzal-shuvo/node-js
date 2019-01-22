@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New Design</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main"></div>
+    <p id="demo"></p>
+
+    <script>
+        var jObj='{"name":"tofazzal","age":"34","location":"sylhet"}';
+        var obj=JSON.parse(jObj);
+        console.log(obj.location);
+        document.getElementById('demo').innerHTML=obj.location;
+        //var myJSON = '{"name":"John", "age":31, "city":"New York"}';
+    // var myObj = JSON.parse(myJSON);
+    // document.getElementById('demo').innerHTML=myObj.age;
+</script>
+</body>
+</html>
