@@ -1,0 +1,24 @@
+{
+  "name": "mongo-demo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tofazzal-shuvo/node-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tofazzal-shuvo/node-js/issues"
+  },
+  "homepage": "https://github.com/tofazzal-shuvo/node-js#readme",
+  "description": ""
+}
